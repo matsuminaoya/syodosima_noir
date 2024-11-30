@@ -1,7 +1,18 @@
 [_tb_system_call storage=system/_scene1.ks]
 
 [cm  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="maou_game_village10.mp3"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#まつみ
+キャラの男女選択の追加は、最後の最後でOKです。[p]
+ひとまず女性キャラで完成させましょう。[p]
+セリフは、出だしだけ書いてあります。[p]
+背景やキャラの画像、音楽はテキトーです。[p]
+ふぁいと。[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="maou_game_village10.mp3"  fadein="true"  ]
 [bg  storage="IMG_2040.jpg"  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -104,6 +115,7 @@
 [_tb_end_text]
 
 [chara_hide  name="怜桜"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="怜桜"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="小豆"  time="1000"  wait="true"  storage="chara/2/IMG_1501.png"  width="1033"  height="778"  left="152"  top="-24"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #AI
@@ -112,11 +124,55 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="怜桜"  time="1000"  wait="true"  storage="chara/1/IMG_1477.png"  width="989"  height="740"  left="187"  top="39"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#
-続きはお楽しみに^_^[p]
+#玲桜
+聞いたこと[p]
 [_tb_end_text]
 
+[chara_hide  name="怜桜"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="AI"  time="1000"  wait="true"  storage="chara/3/undefined_image_(3).png"  width="1024"  height="1024"  left="182"  top="9"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#AI
+「いえ」[p]
+[_tb_end_text]
+
+[chara_hide  name="AI"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="怜桜"  time="1000"  wait="true"  storage="chara/1/IMG_1477.png"  width="989"  height="740"  left="187"  top="39"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#玲桜
+自分が無知[p]
+[_tb_end_text]
+
+[chara_hide  name="怜桜"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="AI"  time="1000"  wait="true"  storage="chara/3/undefined_image_(3).png"  width="1024"  height="1024"  left="182"  top="9"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#AI
+「そうなり」[p]
+[_tb_end_text]
+
+[chara_hide  name="AI"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="怜桜"  time="1000"  wait="true"  storage="chara/1/IMG_1477.png"  width="989"  height="740"  left="187"  top="39"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#玲桜
+いま[p]
+[_tb_end_text]
+
+[chara_hide  name="怜桜"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="AI"  time="1000"  wait="true"  storage="chara/3/undefined_image_(3).png"  width="1024"  height="1024"  left="182"  top="9"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#AI
+「そんな」[p]
+[_tb_end_text]
+
+[chara_hide  name="AI"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="怜桜"  time="1000"  wait="true"  storage="chara/1/IMG_1477.png"  width="989"  height="740"  left="187"  top="39"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#玲桜
+えー[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
-[stopbgm  time="1000"  ]
-[s  ]
+[mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
+[jump  storage="scene2.ks"  target="*start_scene2"  ]
