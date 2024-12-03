@@ -172,7 +172,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="Opening_Buzzer02-1.mp3"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#ガイド
+#
 パァン[p]
 [_tb_end_text]
 
@@ -186,6 +186,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[tb_show_message_window  ]
 [chara_show  name="？"  time="1000"  wait="true"  storage="chara/4/632dca0b-31e0-42c1-a152-1a04f8e89de8.png"  width="800"  height="1067"  left="178"  top="-17"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #？
@@ -213,7 +214,7 @@
 
 [chara_hide  name="？"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
-#これだれの発言だろう
+#
 こら[p]
 [_tb_end_text]
 
@@ -229,11 +230,13 @@
 頭を[p]
 [_tb_end_text]
 
+[chara_show  name="サポートAI"  time="1000"  wait="true"  storage="chara/7/afda88f117720d19d7ccfe2520bc91c6_cn0ehu5e878c73dn2eo0_image.png"  width="359"  height="359"  left="753"  top="206"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#
+#サポートAI
 さわるんじゃ[p]
 [_tb_end_text]
 
+[chara_hide  name="サポートAI"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="音"  time="1000"  wait="true"  storage="chara/5/undefined_image.png"  width="512"  height="512"  left="178"  top="-17"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #音
@@ -281,11 +284,13 @@
 [_tb_end_text]
 
 [chara_hide  name="空"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_show  name="サポートAI"  time="1000"  wait="true"  storage="chara/7/afda88f117720d19d7ccfe2520bc91c6_cn0ehu5e878c73dn2eo0_image.png"  width="359"  height="359"  left="753"  top="206"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#
+#サポートAI
 ドローン[p]
 [_tb_end_text]
 
+[chara_hide  name="サポートAI"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_show  name="空"  time="1000"  wait="true"  storage="chara/6/undefined_image_(1).png"  width="512"  height="512"  left="178"  top="-17"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #空
@@ -294,11 +299,13 @@
 
 [chara_hide  name="空"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_show_message_window  ]
+[chara_hide  name="サポートAI"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
-#
+#サポートAI
 AI[p]
 [_tb_end_text]
 
+[chara_hide  name="空"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_hide  name="AI"  time="1000"  wait="true"  pos_mode="true"  ]
 [chara_hide  name="空"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]

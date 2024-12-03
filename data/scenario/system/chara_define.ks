@@ -11,6 +11,8 @@
 [chara_new  name="音"  jname="音"  storage="chara/5/undefined_image.png"  ]
 ;空
 [chara_new  name="空"  jname="空"  storage="chara/6/undefined_image_(1).png"  ]
+;サポートAI
+[chara_new  name="サポートAI"  jname="サポートAI"  storage="chara/7/0afda88f117720d19d7ccfe2520bc91c6_cn0ehu5e878c73dn2eo0_image.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 
